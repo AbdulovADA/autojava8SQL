@@ -39,7 +39,7 @@ public class DataHelper {
 
         try (
                 var conn = DriverManager.getConnection(
-                        "jdbc:mysql://localhost:3306/app-db", "user", "pass"
+                        "jdbc:mysql://localhost:3306/app", "app", "pass"
                 );
 
         ) {
@@ -57,7 +57,7 @@ public class DataHelper {
 
         try (
                 var conn = DriverManager.getConnection(
-                        "jdbc:mysql://localhost:3306/app-db", "user", "pass"
+                        "jdbc:mysql://localhost:3306/app", "app", "pass"
                 );
         ) {
             runner.update(conn, sqlDeleteAllAuthCodes);
@@ -86,7 +86,7 @@ public class DataHelper {
 
         try (
                 var conn = DriverManager.getConnection(
-                        "jdbc:mysql://localhost:3306/app-db", "user", "pass"
+                        "jdbc:mysql://localhost:3306/app", "app", "pass"
                 );
 
         ) {
@@ -109,7 +109,7 @@ public class DataHelper {
 
         try (
                 var conn = DriverManager.getConnection(
-                        "jdbc:mysql://localhost:3306/app-db", "user", "pass"
+                        "jdbc:mysql://localhost:3306/app", "app", "pass"
                 );
 
         ) {
@@ -144,7 +144,7 @@ public class DataHelper {
 
         try (
                 var conn = DriverManager.getConnection(
-                        "jdbc:mysql://localhost:3306/app-db", "user", "pass"
+                        "jdbc:mysql://localhost:3306/app", "app", "pass"
                 );
 
         ) {
